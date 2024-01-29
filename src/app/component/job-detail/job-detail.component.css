@@ -1,0 +1,76 @@
+.container {
+    background-image: url("src/assets/images/peter-steiner-1973-dTk-vRaGMns-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 5%;
+
+}
+
+.divOne {
+    text-align: center;
+    background-color: rgba(91, 91, 91, 0.8);
+    padding: 5%;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    border-radius: 25px;
+}
+
+.divTwo {
+    padding: 5%;
+    margin: auto;
+    text-align: center;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+p{
+    font-size: 20px;
+}
+
+img {
+    height:33%;
+    width: 33%;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.button-63 {
+    align-items: center;
+    border: black solid;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: black;
+    display: flex;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    line-height: 1em;
+    margin: auto;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 19px 24px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    background-color: #f38942;
+}
+
+.button-63:active,
+.button-63:hover {
+    outline: 0;
+}
+
+@media (min-width: 768px) {
+    .button-63 {
+        font-size: 24px;
+        min-width: 196px;
+    }
+}

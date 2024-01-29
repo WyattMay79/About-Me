@@ -1,0 +1,85 @@
+.container {
+    background-image: url("src/assets/images/andrew-mcquaid-Gx96EVURd1s-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+}
+
+.divOne {
+    background-color: rgba(75, 75, 75, 0.95);
+    margin-top: auto;
+    color: white;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin: 0 35px 25px;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: -15px;
+    font-size: xx-large;
+}
+
+.list {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.description {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+ul {
+    list-style-type:circle;
+}
+
+.button-63 {
+    align-items: center;
+    border: black solid;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: black;
+    display: flex;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    line-height: 1em;
+    margin: auto;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 19px 24px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    background-color: #f38942;
+}
+
+.button-63:active,
+.button-63:hover {
+    outline: 0;
+}
+
+@media (min-width: 768px) {
+    .button-63 {
+        font-size: 24px;
+        min-width: 196px;
+    }
+}
+
+h1{
+    text-align: center;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    padding: 20px 0 10px 0;
+}

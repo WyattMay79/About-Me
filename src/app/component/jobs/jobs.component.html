@@ -1,0 +1,25 @@
+<div class="container">
+    <h1>Work History </h1>
+    <div *ngIf="jobList" class="divOne">
+        <!-- <div *ngFor="let j of jobList" class="jobs" [routerLink]="['/wyatt', j.jobId]">
+            <img>
+            <div class="details">
+                <p>{{ j.title }}</p>
+            </div>
+        </div> -->
+        <mat-card *ngFor="let j of jobList" class="jobs" [routerLink]="['/wyatt', j.jobId]">
+            <mat-card-content class="details">
+                <p>{{ j.title }}</p>
+            </mat-card-content>
+        </mat-card>
+    </div>
+    <br />
+    <br />
+
+    <div class="divTwo">
+        <a><button class="button-63" role="button" [routerLink]="['/']">Back</button></a>
+    </div>
+</div>
+    
+
+<div *ngIf="!jobList">No jobs to show!</div>

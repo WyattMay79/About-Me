@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="divOne">
+        <h1> {{ jobTitle }}</h1>
+
+        <img [src]="jobPhoto" alt="logo">
+        <br />
+
+        <p>{{ jobDescription }}</p>
+        <div>
+            <p><span>{{ jobEmployer }} | {{ jobDuration }}</span></p>
+        </div>
+    </div>
+
+    <div class="divTwo">
+        <a><button class="button-63" [routerLink]="['/jobs']">Back</button></a>
+    </div>
+</div>

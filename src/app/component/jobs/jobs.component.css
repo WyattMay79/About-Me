@@ -1,0 +1,72 @@
+.divOne {
+    opacity: 95%;
+    margin: 25px 260px;
+}
+.jobs{
+    margin: 25px 0;
+}
+.container {
+    padding: 3%;
+    background-image: url("src/assets/images/benjamin-voros-phIFdC6lA4E-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.button-63 {
+    align-items: center;
+    border: black solid;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: black;
+    display: flex;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    line-height: 1em;
+    margin: auto;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 19px 24px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    background-color: #f38942;
+}
+
+.button-63:active,
+.button-63:hover {
+    outline: 0;
+}
+
+@media (min-width: 768px) {
+    .button-63 {
+        font-size: 24px;
+        min-width: 196px;
+    }
+}
+
+p {
+    text-align: center;
+    padding: 20px;
+    margin: 0px 15%;
+    font-size: large;
+    font-weight: bold;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    padding: 5px 0 15px 0;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+}
+mat-card{
+    border-radius: 10px;
+}
